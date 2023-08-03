@@ -4,7 +4,7 @@ import java.awt.image.BufferedImage;
 
 public class Main {
     public static void main(String[] args) {
-      ImageIcon originalImg = new ImageIcon("C:\\ image location");
+        ImageIcon originalImg = new ImageIcon("C:\\ image location");
         ImageIcon resizedImg = resizeImage(originalImg, 128, 128);
 
         boolean checkCharacter = false;
@@ -14,6 +14,8 @@ public class Main {
 
         String f_name = JOptionPane.showInputDialog(null, message_1, "Jeff Association", JOptionPane.PLAIN_MESSAGE);
         String l_name = JOptionPane.showInputDialog(null, message_2, "Jeff Association", JOptionPane.PLAIN_MESSAGE);
+        String name = f_name+" " + l_name;
+        JOptionPane.showMessageDialog(null, "Welcome to Jeff Association "+ name, "Jeff Association", JOptionPane.INFORMATION_MESSAGE,resizedImg);
     }
 
     private static ImageIcon resizeImage(ImageIcon originalIcon, int width, int height) {
