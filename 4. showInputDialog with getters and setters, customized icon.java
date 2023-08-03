@@ -2,6 +2,10 @@ import javax.swing.*;
 import java.awt.*;
 
 class ObjectImage {
+    private ImageIcon img;
+    private int width;
+    private int height;
+    
     public ObjectImage(ImageIcon img, int width, int height) {
         this.img = img;
         this.width = width;
@@ -37,11 +41,6 @@ class ObjectImage {
     public void setHeight(int height) {
         this.height = height;
     }
-
-    private ImageIcon img;
-    private int width;
-    private int height;
-
 }
 
 public class Main {
