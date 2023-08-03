@@ -46,7 +46,7 @@ class ObjectImage {
 
 public class Main {
     public static void main(String[] args) {
-        ImageIcon originalImg = new ImageIcon("C:\\Users\\Author\\IdeaProjects\\FirstDayLearning\\src\\128.png");
+        ImageIcon originalImg = new ImageIcon("enter your image icon file from your directory folder");
         ObjectImage objImg = new ObjectImage(originalImg, 128, 128);
 
         ImageIcon resizedImg = objImg.getResizedImage();
