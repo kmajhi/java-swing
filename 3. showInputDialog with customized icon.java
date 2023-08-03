@@ -7,8 +7,6 @@ public class Main {
         ImageIcon originalImg = new ImageIcon("C:\\ image location");
         ImageIcon resizedImg = resizeImage(originalImg, 128, 128);
 
-        boolean checkCharacter = false;
-
         Object[] message_1 = {resizedImg, "Enter your first name: "};
         Object[] message_2 = {resizedImg, "Enter your last name: "};
 
