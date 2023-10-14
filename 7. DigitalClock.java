@@ -8,10 +8,13 @@ public class DigitalClock {
         JFrame frame = new JFrame("Digital Clock");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(400, 100);
+        frame.getContentPane().setBackground(Color.GREEN);
         frame.setLayout(new FlowLayout());
 
         JLabel timeLabel = new JLabel();
         timeLabel.setFont(new Font("Arial Black", Font.PLAIN, 24));
+        timeLabel.setForeground(Color.red);
+
         frame.add(timeLabel);
 
         frame.setVisible(true);
