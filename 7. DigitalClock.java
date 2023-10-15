@@ -7,7 +7,7 @@ public class DigitalClock {
     public static void main(String[] args) {
         JFrame frame = new JFrame("Digital Clock");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(400, 100);
+        frame.setSize(400, 300);
         frame.getContentPane().setBackground(Color.GREEN);
         frame.setLayout(new FlowLayout());
 
