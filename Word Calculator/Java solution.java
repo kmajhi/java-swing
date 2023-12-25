@@ -1,3 +1,5 @@
+//use this code for java swing 
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
